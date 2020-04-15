@@ -1,0 +1,98 @@
+/* ================= GENERAL ================= */
+
+body{
+    background-color: #eee;
+    text-align: center;
+}
+
+
+
+/* ================= HEADER ================= */
+
+.score{
+    margin: 0 auto;
+    display: flex;
+    width: 24rem;
+}
+
+.score h3{
+    flex: 1 1 auto;
+}
+
+
+
+/* ================= MAIN ================= */
+
+
+/* === NAV === */
+
+ul{
+    padding-inline-start: 0px;
+}
+
+li, article{
+    display: inline-block;
+}
+
+nav img{
+    max-width: 8rem;
+}
+
+
+/* === SECTION === */
+
+section{
+    position: relative;
+}
+
+article{
+    min-width: 25rem;
+}
+
+article img{
+    max-width: 25rem;
+}
+
+aside{
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    transform: rotate(350deg);
+
+    position: absolute;
+    width: 100%;
+    top: 6rem;
+}
+
+.youWin, .youLose, .tie{
+    padding: 2rem 5rem;
+}
+
+.youWin{
+    background-color: green;
+}
+
+.youLose{
+    background-color: red;
+}
+
+.tie{
+    background-color: grey;
+}
+
+
+
+/* ================= FOOTER ================= */
+
+button{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    background-color: black;
+    font-size: 1rem;
+    padding: 1rem 1.5rem;
+    max-width: 20rem;
+    margin: 1rem auto;
+    
+    display: none;
+}
